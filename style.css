@@ -1,0 +1,34 @@
+.global {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#map {
+    height: 450px;
+    margin-bottom: 50px;
+    grid-area: map;
+}
+
+#myMap {
+    width: 500px;
+    height: 500px;
+}
+
+.header {
+
+    text-align: center;
+    
+}
+
+.imgBen {
+    grid-area: imgBen;
+}
+
+.benText {
+    grid-area: benText;
+    width: 55%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
